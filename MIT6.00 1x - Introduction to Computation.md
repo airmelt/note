@@ -1,4 +1,4 @@
-# Class 1
+# Lecture 1
 ## Goal:
 - computational thinking
 - understand code
@@ -25,3 +25,11 @@ statements of fact
 - syntax
 - static semantics
 - semantics
+
+# Lecture 2
+## Introduction to Python
+- operators and operands;
+- statements
+- branching
+- conditionals
+- iteration
