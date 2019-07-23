@@ -33,3 +33,34 @@ statements of fact
 - branching
 - conditionals
 - iteration
+
+# Lecture 3
+## Python For Loop
+- common code patterns: iterative programs
+
+# Lecture 4
+## Python def function and recursion
+- decomposition and abstraction through functions
+- introduction to recursion
+The __Best__ way to show recursion with Python:
+```
+unit = '    '
+def isPalindrome(s, depth):
+    indent = unit * depth
+    print indent, 'func called with', s
+    if len(s) < 2:
+        print indent, 'about to return True from base'
+        return True
+    else:
+        ans = s[0]==s[-1] and isPalindrome(s[1:-1], depth+1)
+        print indent, 'about to return True from base'
+        return ans
+
+isPalindrome('abcdedcba', 0)
+```
+
+# Lecture 5
+## Float and Dichotomy
+- floating point numbers
+- successive refinement
+- finding roots
