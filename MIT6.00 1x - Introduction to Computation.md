@@ -64,3 +64,26 @@ isPalindrome('abcdedcba', 0)
 - floating point numbers
 - successive refinement
 - finding roots
+
+# Lecture 6
+## Bisection and Python list
+- bisection methods
+- Newton/Raphson
+- introduction to lists
+Newton/Raphson(Taylor series): f(x) = 0 -> x`n + 1` = x`n` - f(x`n`)/f'(x`n`)
+
+# Lecture 7
+## Python list and dictionary
+- lists and mutability
+- dictionaries
+- pseudocode
+- introduction to efficiency
+> Typically there’s two things we want to measure, space and time. Sounds like an astrophysics course, right?
+
+# Lecture 8
+## Program Complexity
+- complexity
+- log algorithms
+- linear algorithms
+- quadratic algorithms
+- exponential algorithms
